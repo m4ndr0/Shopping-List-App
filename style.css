@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #faebd7;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+
+header {
+    text-align: center;
+}
+
+.cart-icon {
+    font-size: 8.5rem;
+    color: #deb887;
+    user-select: none;
+}
+
+.input-and-addToCart-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 350px;
+    margin: auto;
+}
+
+main > section > input {
+    text-align: center;
+    padding: 10px 40px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+main > section > button {
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: #deb887;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    user-select: none;
+
+}
+
+main > section > button:hover {
+    background-color: rgb(248, 206, 152);
+}
+
+
+.shopping-list-container {
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 200px;
+    max-width: 400px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(253, 187, 102);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    flex-grow: 1;
+}
+
+li:hover {
+    background-color: rgb(248, 206, 152);
+    border: 5px solid transparent;
+}
+
+li:focus {
+    outline: none;
+    border: 5px solid transparent;
+}
